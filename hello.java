@@ -23,9 +23,11 @@ public class hello {
 		//System.out.println(a*b);
 		//System.out.println(a/b);
 
-
+		System.out.println("グー：1　チョキ：2　パー：3です");
 		Scanner sc=new Scanner(System.in);
+		System.out.println("aさんが選んでください");
 		int a=sc.nextInt();
+		System.out.println("bさんが選んでください");
 		int b=sc.nextInt();
 		if(a==1)
 		{
